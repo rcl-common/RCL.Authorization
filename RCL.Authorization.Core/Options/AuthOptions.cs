@@ -1,4 +1,4 @@
-﻿namespace RCL.Authorization.Test
+﻿namespace RCL.Authorization.Core
 {
     public class AuthOptions
     {

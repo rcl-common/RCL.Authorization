@@ -12,8 +12,8 @@ namespace RCL.Authorization.Test
             IConfiguration Configuration = builder.Build();
 
             IServiceCollection services = new ServiceCollection();
-            services.Configure<AuthOptions>(Configuration.GetSection("Auth"));
-
+            services.AddAuthTokenService(options => Configuration.Bind("Auth",options));
+            
             return services.BuildServiceProvider();
         }
     }
