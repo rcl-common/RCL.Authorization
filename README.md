@@ -4,9 +4,9 @@ A library to generate JWT Access Tokens using an Azure Active Directory applicat
 
 ## Usage
 
-Ceate a new Application Registration using Azure Active Directory
+Ceate a new Application Registration using Azure Active Directory.
 
-Add the credetails for the Application registration in the User Secrets
+Add the credentials for the Application registration in the User Secrets
 
 ```json
 
@@ -26,7 +26,7 @@ Inject the service
 
 ```
 
-Use the service ass follows
+Use the service as follows
 
 ```csharp
 string resource = "https://management.core.windows.net";
